@@ -492,7 +492,7 @@ export default function App() {
         <h1 className="text-white/40 text-2xl font-light tracking-[0.3em] uppercase">
           花花 World
         </h1>
-        <p className="text-white/20 text-sm mt-2 tracking-widest">记得点我</p>
+        <p className="text-white text-sm mt-2 tracking-widest">记得点我</p>
       </div>
     </div>
   );
