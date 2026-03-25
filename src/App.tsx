@@ -375,9 +375,10 @@ export default function App() {
 
       if (timerTick >= timerTotal) {
         if (!mousedown) {
-          fireworks.push(
-            new Firework(cw / 2, ch, random(0, cw), random(0, ch / 2))
-          );
+          // 自动发射烟花特效（已注释）：仅保留手动按压/拖拽触发
+          // fireworks.push(
+          //   new Firework(cw / 2, ch, random(0, cw), random(0, ch / 2))
+          // );
           timerTick = 0;
         }
       } else {
